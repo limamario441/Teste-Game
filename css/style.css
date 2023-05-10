@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    
+    font-family: Press Start 2P;
+}
+header{
+    
+    background-color: rgba(0,0,0,0.25);
+    
+}
+
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+img{
+    width: 100%;
+    height: 300%;
+   
+}
+header{
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(13, 230, 13);
+}
+
+h2{
+    font-size: 95px;
+    margin-top: 85px;
+    padding: 35px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+   
+
+}
+li:hover{
+
+    background-color: green;
+  
+
+}
+li{
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+span{
+    color: yellow;
+}
+.corpo span{
+    color: yellow;
+    font-size: 105px;
+}
+body{
+
+    background-image: url(https://i.pinimg.com/originals/ab/04/77/ab047746fca026c67854801a2cb93c8f.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 900px;
+  
+
+}
+
+
